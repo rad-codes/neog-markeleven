@@ -1,0 +1,56 @@
+.header {
+    text-align: center;
+    /* margin-top: 100px; */
+    color: coral
+}
+
+.container {
+    text-align: center;
+    width: 500px;
+    margin: auto auto;
+}
+
+label {
+    color: coral;
+}
+
+label,
+input {
+    display: block;
+    margin-top: 1.5rem;
+    width: 100%;
+
+}
+
+
+
+input {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid brown;
+    font-size: large;
+    margin: 1rem 0;
+}
+
+
+
+#calculate-number {
+    background-color: coral;
+    border: 2px solid brown;
+    color: white;
+    padding:1rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    margin: auto;
+    display: block;
+}
+
+#output-container {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: larger;
+}
