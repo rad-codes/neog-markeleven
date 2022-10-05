@@ -3,6 +3,8 @@ const luckynumber=document.querySelector("#lucky-number")
 const calculatebutton=document.querySelector("#calculate-number")
 const displayMessage = document.querySelector("#output-container");
 function handleclick(){
+  if(dateofbirth.value!=''&& luckynumber.value!=""){
+    if(Number(luckynumber.value>0)){
  const dob= dateofbirth.value
 //    console.log(dob)
    let sumofdob=calculatesum(dob)
@@ -15,6 +17,14 @@ function handleclick(){
     console.log("notlucky")
     showmessage("UNLUCKY")
    }
+  }
+  else{
+    showmessage("Please enter natural numbers in Lucky Number field")
+  }
+  }
+  else{
+    showmessage("Enter values in both fields")
+  }
 }
 const showmessage = (message) => {
     displayMessage.innerText = message;
